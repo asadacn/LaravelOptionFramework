@@ -28,6 +28,13 @@ return array(
                 "label" => "Backup Time",
                 "description" => "Set db backup time",
                 "validation" => 'required'
+            ),
+            array(
+                "type"        => "colorpicker",
+                "id"          => "navbar_color",
+                "label"       => "Navbar Color",
+                "description" => "Pick a color for Navbar",
+                
             )
 
         )
@@ -50,8 +57,10 @@ return array(
                 "label" => "Twitter",
                 "description" => "Enter twitter link",
                 "icon" => "fa-twitter-square"
-            )
+            ),
+            
         )
-    )
+        ),
+
 );
 ?>
